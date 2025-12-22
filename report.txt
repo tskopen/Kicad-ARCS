@@ -1,0 +1,57 @@
+Warning: Width correction constrained.  The width correction value must be in the range of [0.000001 mm; 0.149999 mm] for the current design rules.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-F_Cu.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-B_Cu.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-F_Adhesive.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-B_Adhesive.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-F_Paste.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-B_Paste.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-F_Silkscreen.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-B_Silkscreen.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-F_Mask.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-B_Mask.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-User_Drawings.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-User_Comments.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-User_Eco1.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-User_Eco2.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-Edge_Cuts.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-Margin.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-F_Courtyard.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-B_Courtyard.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-F_Fab.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-B_Fab.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-G_Cu.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-User_2.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-User_3.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-User_4.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-User_5.gbr'.
+Created Gerber job file '/Users/tskopen/PCBs/Experimental/Experimental-job.gbrjob'.
+Info: Done.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-F_Cu.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-B_Cu.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-F_Adhesive.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-B_Adhesive.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-F_Paste.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-B_Paste.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-F_Silkscreen.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-B_Silkscreen.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-F_Mask.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-B_Mask.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-User_Drawings.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-User_Comments.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-User_Eco1.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-User_Eco2.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-Edge_Cuts.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-Margin.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-F_Courtyard.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-B_Courtyard.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-F_Fab.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-B_Fab.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-G_Cu.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-User_2.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-User_3.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-User_4.gbr'.
+Plotted to '/Users/tskopen/PCBs/Experimental/Experimental-User_5.gbr'.
+Created Gerber job file '/Users/tskopen/PCBs/Experimental/Experimental-job.gbrjob'.
+Info: Done.
+Info: Done.
+Info: Done.
