@@ -827,52 +827,53 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SMF6V0A"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Power_Protection:USBLC6-2SC6"
 			(pin_names
-				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
+			(property "Reference" "U"
+				(at 0.635 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "SMF6V0A"
-				(at 0 -2.54 0)
+			(property "Value" "USBLC6-2SC6"
+				(at 0.635 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SMF"
-				(at 0 -5.08 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 1.27 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/doc?85881"
-				(at -1.27 0 0)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+				(at 1.27 -8.255 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 6Vrwm, SMF"
+			(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
 				(at 0 0 0)
 				(effects
 					(font
@@ -881,7 +882,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode TVS voltage suppressor"
+			(property "ki_keywords" "usb ethernet video"
 				(at 0 0 0)
 				(effects
 					(font
@@ -890,7 +891,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*SMF*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -899,13 +900,81 @@
 					(hide yes)
 				)
 			)
-			(symbol "SMF6V0A_0_1"
+			(symbol "USBLC6-2SC6_0_0"
+				(circle
+					(center -1.524 0)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.508 2.032)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.508 -4.572)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.508 2.032)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.508 -4.572)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.524 -2.54)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USBLC6-2SC6_0_1"
 				(polyline
 					(pts
-						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
+						(xy -2.54 0) (xy 2.54 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -914,10 +983,143 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.508) (xy -1.016 0.508) (xy -1.524 1.524) (xy -2.032 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -3.048) (xy -1.016 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.524) (xy -2.032 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy -2.032 -4.064) (xy -1.524 -3.048) (xy -1.016 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.143) (xy -0.508 -0.762) (xy 0.508 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.508 2.032) (xy 0.508 2.032) (xy 0 1.524) (xy 0 -4.064) (xy -0.508 -4.572) (xy 0.508 -4.572)
+						(xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.778) (xy -0.508 -1.778) (xy 0 -0.762) (xy 0.508 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -3.048) (xy 2.032 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.508) (xy 1.016 0.508) (xy 1.524 1.524) (xy 2.032 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -4.064) (xy 1.016 -4.064) (xy 1.524 -3.048) (xy 2.032 -4.064)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -925,11 +1127,46 @@
 					)
 				)
 			)
-			(symbol "SMF6V0A_1_1"
+			(symbol "USBLC6-2SC6_1_1"
+				(rectangle
+					(start -2.54 2.794)
+					(end 2.54 -5.334)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.032) (xy -1.524 2.032) (xy -1.524 -4.572) (xy -0.508 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -4.572) (xy 1.524 -4.572) (xy 1.524 2.032) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -3.81 0 0)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "A1"
+					(name "I/O1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -945,9 +1182,45 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at -5.08 -2.54 0)
 					(length 2.54)
-					(name "A2"
+					(name "I/O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -962,119 +1235,17 @@
 						)
 					)
 				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Diode:SMF6V5A"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SMF6V5A"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SMF"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/doc?85881"
-				(at -1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 6.5Vrwm, SMF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode TVS voltage suppressor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SMF*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SMF6V5A_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SMF6V5A_1_1"
 				(pin passive line
-					(at -3.81 0 0)
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "A1"
+					(name "I/O1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1083,16 +1254,16 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at 5.08 -2.54 180)
 					(length 2.54)
-					(name "A2"
+					(name "I/O2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1349,22 +1520,10 @@
 		(uuid "a3d680bf-97b0-44f2-b419-cd459b39f628")
 	)
 	(junction
-		(at 152.4 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1343983-8042-4a6e-8ed0-ae835f61a7b2")
-	)
-	(junction
 		(at 140.97 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b86adae4-21cf-4c16-bd94-0036e20a9c4e")
-	)
-	(junction
-		(at 129.54 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c062965a-3f78-4784-83c7-00c6800db7ae")
 	)
 	(no_connect
 		(at 163.83 113.03)
@@ -1426,7 +1585,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 97.79) (xy 154.94 97.79)
+			(xy 123.19 97.79) (xy 154.94 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1476,7 +1635,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 97.79) (xy 152.4 97.79)
+			(xy 102.87 97.79) (xy 113.03 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1486,23 +1645,23 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 69.85) (xy 201.93 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ddd114b-bf4a-4fa5-93fb-ad896445c2d1")
-	)
-	(wire
-		(pts
-			(xy 102.87 100.33) (xy 129.54 100.33)
+			(xy 102.87 100.33) (xy 113.03 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4ece3643-3a14-454e-8ba1-95caa6afb693")
+	)
+	(wire
+		(pts
+			(xy 118.11 58.42) (xy 118.11 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51be5d37-b90e-41fa-8479-3f609ec015eb")
 	)
 	(wire
 		(pts
@@ -1526,16 +1685,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 58.42) (xy 201.93 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "629aea78-f27f-460e-b671-784a91bf7daf")
-	)
-	(wire
-		(pts
 			(xy 157.48 53.34) (xy 157.48 58.42)
 		)
 		(stroke
@@ -1553,16 +1702,6 @@
 			(type default)
 		)
 		(uuid "6d511024-8b29-45d6-a42d-6a3e66e9f7f1")
-	)
-	(wire
-		(pts
-			(xy 152.4 132.08) (xy 152.4 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74ce6cc4-56c4-4403-845f-4e114e883da3")
 	)
 	(wire
 		(pts
@@ -1586,13 +1725,13 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 58.42) (xy 201.93 62.23)
+			(xy 157.48 58.42) (xy 118.11 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a5192de2-1264-481e-a35c-efbd25fd33ed")
+		(uuid "acb5b890-9492-4d73-b2b8-f041737d96fd")
 	)
 	(wire
 		(pts
@@ -1606,43 +1745,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 97.79) (xy 152.4 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce97c288-a8d8-4e1a-b2f4-9e81b83d41ae")
-	)
-	(wire
-		(pts
-			(xy 129.54 100.33) (xy 154.94 100.33)
+			(xy 123.19 100.33) (xy 154.94 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dd8d3dcf-5466-4df6-b7c7-661522a9c499")
-	)
-	(wire
-		(pts
-			(xy 129.54 100.33) (xy 129.54 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e820f70f-5943-46ee-aa53-23d94c7a6824")
-	)
-	(wire
-		(pts
-			(xy 129.54 132.08) (xy 129.54 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eaa6054b-83a5-4080-9e84-b815c5c7c02f")
 	)
 	(wire
 		(pts
@@ -1918,142 +2027,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 129.54 137.16 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "30f892ee-2e88-4aca-9c24-e110b4e74c2e")
-		(property "Reference" "#PWR054"
-			(at 129.54 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 129.794 144.272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "88c6c00f-b218-4597-ad45-a44cec397172")
-		)
-		(instances
-			(project "Experimental"
-				(path "/d685641e-0e6b-462c-92c0-fbf0ccf1a433/85090c8c-0c9b-4715-9822-04fe166bc798"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SMF6V0A")
-		(at 129.54 128.27 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46079fc8-5e52-421d-9326-52baad843dc3")
-		(property "Reference" "D3"
-			(at 132.08 126.9999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMF6V0A-E3-08"
-			(at 132.08 129.5399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMF"
-			(at 124.46 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?85881"
-			(at 129.54 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 6Vrwm, SMF"
-			(at 129.54 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53ef4c9e-7124-4761-aeda-a160a273320d")
-		)
-		(pin "2"
-			(uuid "c7cb7b45-f648-4811-a7be-c03a33d895c7")
-		)
-		(instances
-			(project "Experimental"
-				(path "/d685641e-0e6b-462c-92c0-fbf0ccf1a433/85090c8c-0c9b-4715-9822-04fe166bc798"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 149.86 87.63 90)
 		(unit 1)
@@ -2124,73 +2097,6 @@
 			(project "Experimental"
 				(path "/d685641e-0e6b-462c-92c0-fbf0ccf1a433/85090c8c-0c9b-4715-9822-04fe166bc798"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 201.93 95.25 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "49ad3873-991b-41f5-9d03-8582ee8c9a41")
-		(property "Reference" "#PWR056"
-			(at 201.93 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 205.232 94.488 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "78c06f65-3767-41d7-9800-4f80518a0d11")
-		)
-		(instances
-			(project "Experimental"
-				(path "/d685641e-0e6b-462c-92c0-fbf0ccf1a433/85090c8c-0c9b-4715-9822-04fe166bc798"
-					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -2324,6 +2230,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 118.11 105.41 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74911c8e-d35e-43c3-9695-18a5c0aa7465")
+		(property "Reference" "#PWR033"
+			(at 118.11 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.364 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "558151e4-f9be-486d-8c6f-7b2b175dc62c")
+		)
+		(instances
+			(project "Experimental"
+				(path "/d685641e-0e6b-462c-92c0-fbf0ccf1a433/85090c8c-0c9b-4715-9822-04fe166bc798"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 179.07 134.62 0)
 		(mirror y)
 		(unit 1)
@@ -2389,17 +2361,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SMF6V5A")
-		(at 201.93 66.04 270)
+		(lib_id "Power_Protection:USBLC6-2SC6")
+		(at 118.11 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8734775b-f021-490a-8aeb-d1cfa3d99330")
-		(property "Reference" "D4"
-			(at 204.47 64.7699 90)
+		(uuid "97b29a9b-a1eb-4435-b0b9-ffc1ac714b28")
+		(property "Reference" "U2"
+			(at 119.7611 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2407,8 +2379,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMF6V0A-E3-08"
-			(at 204.47 67.3099 90)
+		(property "Value" "USBLC6-2SC6"
+			(at 119.7611 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2416,8 +2388,29 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMF"
-			(at 196.85 66.04 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 119.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+			(at 119.38 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 118.11 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,104 +2418,28 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?85881"
-			(at 201.93 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 6.5Vrwm, SMF"
-			(at 201.93 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f7b7406-e517-4b27-b45f-e3c3b6851499")
+		(pin "5"
+			(uuid "21540046-cd89-4725-9d09-5faf0ce6b065")
 		)
 		(pin "2"
-			(uuid "67e84bb7-70af-4158-863b-c9cd9a8a3a06")
+			(uuid "fd6c7dd0-7862-495e-9b04-a821aeb8f4c3")
+		)
+		(pin "6"
+			(uuid "bab02156-6f40-4e46-8e1d-79ed113eefda")
+		)
+		(pin "4"
+			(uuid "ff4fa9f3-8385-4c0c-ba67-849f7997b467")
+		)
+		(pin "1"
+			(uuid "34d08356-28cf-48ea-b539-9f497b80c780")
+		)
+		(pin "3"
+			(uuid "025be4cb-3c11-428e-a822-9b0deba2c373")
 		)
 		(instances
 			(project ""
 				(path "/d685641e-0e6b-462c-92c0-fbf0ccf1a433/85090c8c-0c9b-4715-9822-04fe166bc798"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SMF6V0A")
-		(at 152.4 128.27 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e180309-8354-4d2a-b100-63ed7dd37725")
-		(property "Reference" "D2"
-			(at 154.94 126.9999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMF6V0A-E3-08"
-			(at 154.94 129.5399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMF"
-			(at 147.32 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?85881"
-			(at 152.4 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 6Vrwm, SMF"
-			(at 152.4 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "76761c66-4aca-49a1-abe4-77ccc5f100d1")
-		)
-		(pin "2"
-			(uuid "68b46a16-0611-4b6a-a389-c81c2e1b2d98")
-		)
-		(instances
-			(project ""
-				(path "/d685641e-0e6b-462c-92c0-fbf0ccf1a433/85090c8c-0c9b-4715-9822-04fe166bc798"
-					(reference "D2")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2589,72 +2506,6 @@
 			(project "Experimental"
 				(path "/d685641e-0e6b-462c-92c0-fbf0ccf1a433/85090c8c-0c9b-4715-9822-04fe166bc798"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 152.4 137.16 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d3891d62-c127-4955-a34f-c10ebc43c7b6")
-		(property "Reference" "#PWR053"
-			(at 152.4 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 152.654 144.272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b58d4e85-2179-4082-b917-92773001464c")
-		)
-		(instances
-			(project "Experimental"
-				(path "/d685641e-0e6b-462c-92c0-fbf0ccf1a433/85090c8c-0c9b-4715-9822-04fe166bc798"
-					(reference "#PWR053")
 					(unit 1)
 				)
 			)

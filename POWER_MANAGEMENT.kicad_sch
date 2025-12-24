@@ -1848,6 +1848,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 81.28) (xy 40.64 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5edccf75-931c-4a3f-9830-62e30f5a1cb0")
+	)
+	(wire
+		(pts
 			(xy 118.11 99.06) (xy 118.11 85.09)
 		)
 		(stroke
@@ -1938,7 +1948,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 93.98) (xy 49.53 101.6)
+			(xy 40.64 90.17) (xy 40.64 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2138,7 +2148,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 116.84) (xy 49.53 109.22)
+			(xy 40.64 114.3) (xy 40.64 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2158,7 +2168,7 @@
 	)
 	(hierarchical_label "LED"
 		(shape input)
-		(at 49.53 88.9 90)
+		(at 40.64 81.28 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2649,7 +2659,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 49.53 91.44 0)
+		(at 40.64 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2657,7 +2667,7 @@
 		(dnp no)
 		(uuid "3d75ddb8-248e-472f-aa58-0c96ed1e561b")
 		(property "Reference" "R7"
-			(at 54.61 91.44 0)
+			(at 45.72 87.63 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -2665,7 +2675,7 @@
 			)
 		)
 		(property "Value" "5.4k"
-			(at 55.372 87.884 0)
+			(at 46.482 84.074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2673,7 +2683,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 49.53 91.44 0)
+			(at 40.64 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2682,7 +2692,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 91.44 0)
+			(at 40.64 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2691,7 +2701,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 49.53 91.44 0)
+			(at 40.64 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2700,7 +2710,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 49.53 91.44 0)
+			(at 40.64 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3546,7 +3556,7 @@
 		(dnp no)
 		(uuid "91bc23f5-b4cd-460a-b19f-3b7ddc43f0c9")
 		(property "Reference" "NCD0603R1"
-			(at 73.9775 102.87 90)
+			(at 75.946 101.854 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3554,7 +3564,7 @@
 			)
 		)
 		(property "Value" "RED_LED"
-			(at 73.9775 105.41 90)
+			(at 75.946 104.394 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3799,7 +3809,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 116.84 0)
+		(at 40.64 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3807,7 +3817,7 @@
 		(dnp no)
 		(uuid "b0164f99-a1eb-4410-8f76-64499b03f6f7")
 		(property "Reference" "#PWR035"
-			(at 49.53 123.19 0)
+			(at 40.64 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3816,7 +3826,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 56.134 120.142 0)
+			(at 47.244 117.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3824,7 +3834,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 116.84 0)
+			(at 40.64 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3833,7 +3843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 116.84 0)
+			(at 40.64 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3842,7 +3852,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 116.84 0)
+			(at 40.64 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4359,7 +4369,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 49.53 105.41 90)
+		(at 40.64 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4367,7 +4377,7 @@
 		(dnp no)
 		(uuid "d698342a-ade3-4694-a1d8-0e0eda9406ee")
 		(property "Reference" "NCD0603G1"
-			(at 56.1975 105.41 90)
+			(at 49.784 99.822 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4375,7 +4385,7 @@
 			)
 		)
 		(property "Value" "GREEN LED"
-			(at 56.1975 107.95 90)
+			(at 49.784 102.362 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4383,7 +4393,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 49.53 105.41 0)
+			(at 40.64 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4392,7 +4402,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 105.41 0)
+			(at 40.64 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4401,7 +4411,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 49.53 105.41 0)
+			(at 40.64 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4410,7 +4420,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 49.53 105.41 0)
+			(at 40.64 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4419,7 +4429,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 49.53 105.41 90)
+			(at 40.64 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
