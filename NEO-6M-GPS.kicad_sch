@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "e21f4b47-9a0c-4052-8863-3c3187e3ee45")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "20279-001E-03:20279-001E-03"
 			(pin_names
@@ -1126,10 +1126,10 @@
 		)
 	)
 	(junction
-		(at 208.28 55.88)
+		(at 208.28 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d7d319f0-ce25-44aa-8fca-ce6b0f2174b6")
+		(uuid "5ae971d5-a470-4ac7-97d1-87a924cef294")
 	)
 	(no_connect
 		(at 195.58 71.12)
@@ -1179,7 +1179,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 101.6) (xy 168.91 55.88)
+			(xy 168.91 101.6) (xy 168.91 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1229,7 +1229,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 45.72) (xy 208.28 55.88)
+			(xy 208.28 45.72) (xy 208.28 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1239,7 +1239,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 55.88) (xy 208.28 55.88)
+			(xy 168.91 53.34) (xy 208.28 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1289,13 +1289,13 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 55.88) (xy 208.28 60.96)
+			(xy 208.28 53.34) (xy 208.28 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e79816fa-4f92-4e32-bd0a-4dfce8daf29c")
+		(uuid "f6301230-51f6-4fc7-be95-b7cfe6d9bcef")
 	)
 	(hierarchical_label "GPS_RESET"
 		(shape input)

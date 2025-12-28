@@ -546,6 +546,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -881,6 +882,10 @@
       "Root"
     ],
     [
+      "8d3a2210-5160-49c4-9bac-feecf85a4c4a",
+      "POWER_MANAGEMENT"
+    ],
+    [
       "ec189242-dc01-44bf-b1ae-2a732f2968a3",
       "PYRO_N_MOSFET_A1"
     ],
@@ -899,10 +904,6 @@
     [
       "aaa49943-a8b6-45e8-9bcc-b1ce6dac060a",
       "Storage"
-    ],
-    [
-      "a795adf3-e3bc-45dd-be3f-b4f420161d74",
-      "POWER_MANAGEMENT"
     ]
   ],
   "text_variables": {}
