@@ -880,22 +880,6 @@
     [
       "d685641e-0e6b-462c-92c0-fbf0ccf1a433",
       "Root"
-    ],
-    [
-      "ec189242-dc01-44bf-b1ae-2a732f2968a3",
-      "PYRO_N_MOSFET_A1"
-    ],
-    [
-      "414116ec-3b0e-4770-b289-7c1c3d4d317c",
-      "Sensors_I2C_BUS"
-    ],
-    [
-      "f558e1c2-4c31-4413-9eb9-643a4c8f00f4",
-      "NEO-M8N-GPS"
-    ],
-    [
-      "aaa49943-a8b6-45e8-9bcc-b1ce6dac060a",
-      "Data Storage"
     ]
   ],
   "text_variables": {}
