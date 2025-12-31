@@ -14707,7 +14707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e5f3b34-93e2-4f89-9caf-145565ecdfb4")
-		(property "Reference" "C12_47uF"
+		(property "Reference" "C12_47uF1"
 			(at 380.238 233.934 90)
 			(effects
 				(font
@@ -14841,7 +14841,7 @@
 		(instances
 			(project "Experimental"
 				(path "/d685641e-0e6b-462c-92c0-fbf0ccf1a433"
-					(reference "C12_47uF")
+					(reference "C12_47uF1")
 					(unit 1)
 				)
 			)
@@ -15069,7 +15069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ce6c66e-4d21-4047-9869-a785fb7c3861")
-		(property "Reference" "D?"
+		(property "Reference" "D2"
 			(at 66.04 202.2474 90)
 			(effects
 				(font
@@ -15132,7 +15132,7 @@
 		(instances
 			(project "Experimental"
 				(path "/d685641e-0e6b-462c-92c0-fbf0ccf1a433"
-					(reference "D?")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -16844,7 +16844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6948a77e-1521-42e9-919b-07cb2254d72b")
-		(property "Reference" "J7CHECK"
+		(property "Reference" "J7CHECK1"
 			(at 90.932 43.18 90)
 			(effects
 				(font
@@ -17031,7 +17031,7 @@
 		(instances
 			(project "Experimental"
 				(path "/d685641e-0e6b-462c-92c0-fbf0ccf1a433"
-					(reference "J7CHECK")
+					(reference "J7CHECK1")
 					(unit 1)
 				)
 			)
@@ -21219,7 +21219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3258a2b-9d8c-48ca-b24f-22af99360212")
-		(property "Reference" "C11_47uF"
+		(property "Reference" "C11_47uF1"
 			(at 361.442 234.188 90)
 			(effects
 				(font
@@ -21353,7 +21353,7 @@
 		(instances
 			(project "Experimental"
 				(path "/d685641e-0e6b-462c-92c0-fbf0ccf1a433"
-					(reference "C11_47uF")
+					(reference "C11_47uF1")
 					(unit 1)
 				)
 			)
@@ -21370,7 +21370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4936eff-cc49-4e42-bf8d-8b53f12b0a5b")
-		(property "Reference" "R"
+		(property "Reference" "R23"
 			(at 59.69 180.34 90)
 			(effects
 				(font
@@ -21431,7 +21431,7 @@
 		(instances
 			(project "Experimental"
 				(path "/d685641e-0e6b-462c-92c0-fbf0ccf1a433"
-					(reference "R")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -21792,7 +21792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d698342a-ade3-4694-a1d8-0e0eda9406ee")
-		(property "Reference" "GREEN_LED"
+		(property "Reference" "GREEN_LED1"
 			(at 262.128 181.356 90)
 			(effects
 				(font
@@ -21863,7 +21863,7 @@
 		(instances
 			(project "Experimental"
 				(path "/d685641e-0e6b-462c-92c0-fbf0ccf1a433"
-					(reference "GREEN_LED")
+					(reference "GREEN_LED1")
 					(unit 1)
 				)
 			)
