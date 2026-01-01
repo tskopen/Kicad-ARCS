@@ -642,7 +642,6 @@
         "Signal"
       ],
       "GND": [
-        "+7.4V",
         "Signal"
       ],
       "Net-(Barometer1-SCK)": [
@@ -705,16 +704,19 @@
       "Net-(J10-Pin_1)": [
         "+7.4V"
       ],
-      "Net-(J10-Pin_2)": [
-        "+7.4V"
-      ],
       "Net-(J2-Pin_2)": [
         "+7.4V"
       ],
       "Net-(Magnometer1-C1)": [
         "GND"
       ],
+      "Net-(Q1-D)": [
+        "+7.4V"
+      ],
       "Net-(Q3-S)": [
+        "+7.4V"
+      ],
+      "Net-(Q4-D)": [
         "+7.4V"
       ],
       "Net-(R-Pad2)": [
