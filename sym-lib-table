@@ -17,4 +17,6 @@
   (lib (name "TPSM84205EAB")(type "KiCad")(uri "/Users/tskopen/Documents/KiCad/9.0/symbols/TPSM84205EAB.kicad_sym")(options "")(descr ""))
   (lib (name "06034W476MAT2A")(type "KiCad")(uri "/Users/tskopen/Documents/KiCad/9.0/symbols/Capacitor/06034W476MAT2A.kicad_sym")(options "")(descr ""))
   (lib (name "EEU-FR1A682B")(type "KiCad")(uri "/Users/tskopen/Documents/KiCad/9.0/symbols/EEU-FR1A682B.kicad_sym")(options "")(descr ""))
+  (lib (name "Spring_Term_6")(type "KiCad")(uri "/Users/tskopen/Documents/KiCad/9.0/symbols/2026-01-04_03-56-28.kicad_sym")(options "")(descr ""))
+  (lib (name "6P_SMD_SPRING_CONN")(type "KiCad")(uri "/Users/tskopen/Documents/KiCad/9.0/symbols/6P_SMD_SPRING_CONN.kicad_sym")(options "")(descr ""))
 )
